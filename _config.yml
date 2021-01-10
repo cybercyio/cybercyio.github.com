@@ -28,7 +28,7 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "cybercyio/cybercyio.github.io"
 teaser: "/assets/images/san-2117290_1920.jpg"
 logo: "/assets/images/icon-5381273_1920.jpg"
-masthead_title: "An Information security blog"
+masthead_title: # "An Information security blog"
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 twitter_username: cybercyio
