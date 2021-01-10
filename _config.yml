@@ -13,16 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+locale: "en-US"
 title: Blog Title
+title_separator: "-"
+subtitle: "Information security blog"
+name: "Your Name"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+url: "https://cybercyio.github.io"
+baseurl: # the subpath of your site, e.g. "/blog"
+repository: # GitHub username/repo-name e.g. "cybercyio/cybercyio.github.io"
+teaser: "/assets/images/san-2117290_1920.jpg"
+logo: "/assets/images/icon-5381273_1920.jpg"
+masthead_title: "An Information security blog"
+breadcrumbs: true # true, false (default)
+words_per_minute: 200
 twitter_username: cybercyio
 github_username: cybercyio
-minimal_mistakes_skin: air
+minimal_mistakes_skin: air # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
+search_full_content: true # true, false (default)
+search_provider: lunr # lunr (default), algolia, google
 
 # Build settings
 markdown: kramdown
