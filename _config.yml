@@ -30,6 +30,7 @@ teaser: "/assets/images/network-3443540_1920.jpg"
 logo: "/assets/images/icon-5381273_1920.jpg"
 masthead_title: # "An Information security blog"
 breadcrumbs: true # true, false (default)
+breadcrumb_separator  : "/"
 words_per_minute: 200
 twitter_username: cybercyio
 github_username: cybercyio
@@ -37,6 +38,8 @@ minimal_mistakes_skin: air # "default", "air", "aqua", "contrast", "dark", "dirt
 search: true
 search_full_content: true # true, false (default)
 search_provider: lunr # lunr (default), algolia, google
+toc: true
+toc_label: "Content: "
 
 # Build settings
 markdown: kramdown
@@ -101,6 +104,7 @@ author:
   name   : "Rocky Balboa"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Life-long pentester, fresh threat hunter"
+  #location : "Somewhere, USA"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
