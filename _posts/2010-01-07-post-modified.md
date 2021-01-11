@@ -8,6 +8,8 @@ tags:
   - Post Formats
   - readability
   - standard
+header:
+  teaser: /assets/images/network-3443540_1920.jpg
 ---
 
 This post has been updated and should show a modified date if used in a layout.
