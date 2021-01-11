@@ -10,6 +10,9 @@ tags:
   - standard
 header:
   image: /assets/images/network-3443540_1920.jpg
+  image_description: "A description of the image"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
 ---
 
 This post has been updated and should show a modified date if used in a layout.
