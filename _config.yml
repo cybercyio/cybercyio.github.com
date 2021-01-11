@@ -121,6 +121,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: false
+      show_date: true
       share: true
       related: true
   # _pages
