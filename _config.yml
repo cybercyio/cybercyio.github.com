@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 locale: "en-US"
 title: "Blog Title"
-title_separator: "-"
+title_separator: "|"
 subtitle: "Information security blog"
-name: "Your Name"
+name: "Michael Rose"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://cybercyio.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "cybercyio/cybercyio.github.io"
-teaser: "/assets/images/san-2117290_1920.jpg"
+teaser: "/assets/images/network-3443540_1920.jpg"
 logo: "/assets/images/icon-5381273_1920.jpg"
 masthead_title: # "An Information security blog"
 breadcrumbs: true # true, false (default)
@@ -48,7 +48,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!--more-->"
 incremental: false
 
 # Markdown Processing
